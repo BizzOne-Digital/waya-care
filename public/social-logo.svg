@@ -1,0 +1,16 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5C8A5C" />
+      <stop offset="100%" stop-color="#8FB78F" />
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" />
+  <g transform="translate(540 540)">
+    <path d="M0 -290L-382 30V430a45 45 0 0045 45h200v-245a45 45 0 0145-45h180a45 45 0 0145 45v245h200a45 45 0 0045-45V30L0 -290z" fill="white" opacity="0.97" />
+    <path d="M0 -30c-45 54-77 97-77 133 0 45 35 79 77 79s77-34 77-79c0-36-32-79-77-133z" fill="#5C8A5C" />
+  </g>
+  <text x="540" y="890" font-family="Georgia, 'Times New Roman', serif" font-size="90" font-weight="bold" fill="white" text-anchor="middle">
+    Waya<tspan fill="#EEF3EA">Care</tspan>
+  </text>
+</svg>

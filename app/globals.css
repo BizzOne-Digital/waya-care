@@ -2,11 +2,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-navy: #0F2A4A;
-  --color-teal: #1A7A7A;
-  --color-teal-light: #2AADA0;
-  --color-teal-pale: #E8F6F5;
-  --color-cream: #F8FAFB;
+  --color-navy: #2F4A3C;
+  --color-teal: #5C8A5C;
+  --color-teal-light: #8FB78F;
+  --color-teal-pale: #EEF3EA;
+  --color-cream: #F9FAF7;
   --color-slate: #64748B;
   --color-soft-white: #FFFFFF;
 
@@ -37,16 +37,16 @@ body {
 .hero-overlay {
   background: linear-gradient(
     135deg,
-    rgba(15, 42, 74, 0.88) 0%,
-    rgba(26, 122, 122, 0.65) 60%,
-    rgba(15, 42, 74, 0.4) 100%
+    rgba(47, 74, 60, 0.88) 0%,
+    rgba(92, 138, 92, 0.65) 60%,
+    rgba(47, 74, 60, 0.4) 100%
   );
 }
 
 /* Card hover */
 .service-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(26, 122, 122, 0.15);
+  box-shadow: 0 20px 40px rgba(92, 138, 92, 0.15);
 }
 
 .service-card {
@@ -55,7 +55,7 @@ body {
 
 /* Testimonial card */
 .testimonial-card {
-  background: linear-gradient(135deg, #ffffff 0%, #E8F6F5 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #EEF3EA 100%);
 }
 
 /* Navigation active link */
@@ -70,7 +70,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: #2AADA0;
+  background: #8FB78F;
   transition: width 0.3s ease;
 }
 
@@ -80,14 +80,14 @@ body {
 
 /* CTA Button */
 .btn-primary {
-  background: linear-gradient(135deg, #1A7A7A 0%, #2AADA0 100%);
+  background: linear-gradient(135deg, #5C8A5C 0%, #8FB78F 100%);
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(26, 122, 122, 0.3);
+  box-shadow: 0 4px 15px rgba(92, 138, 92, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(26, 122, 122, 0.45);
+  box-shadow: 0 8px 25px rgba(92, 138, 92, 0.45);
 }
 
 .btn-outline {
@@ -107,7 +107,7 @@ a, button {
 .btn-primary:focus-visible,
 .btn-outline:focus-visible,
 .nav-link:focus-visible {
-  outline: 2px solid #2AADA0;
+  outline: 2px solid #8FB78F;
   outline-offset: 2px;
   border-radius: inherit;
 }

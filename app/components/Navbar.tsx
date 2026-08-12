@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
+import LogoMark from "./Logo";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -17,8 +18,9 @@ export default function Navbar() {
     { href: "/about", label: "About Us" },
     { href: "/services", label: "Services" },
     { href: "/why-us", label: "Why Waya" },
-    { href: "/testimonials", label: "Testimonials" },
+    { href: "/testimonials", label: "Our Promise" },
     { href: "/faq", label: "FAQ" },
+    { href: "/careers", label: "Careers" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -33,12 +35,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-full bg-gradient-to-br from-teal to-teal-light flex items-center justify-center">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-              <path d="M12 2C8 2 4 5.5 4 10c0 5 4.5 9 8 12 3.5-3 8-7 8-12 0-4.5-4-8-8-8z" fill="white" opacity="0.9"/>
-              <path d="M12 7c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3-1.3-3-3-3z" fill="white"/>
-            </svg>
-          </div>
+          <LogoMark />
           <div>
             <span className={`font-display font-bold text-xl tracking-tight ${scrolled ? "text-navy" : "text-white"}`}>
               Waya<span className="text-teal-light">Care</span>

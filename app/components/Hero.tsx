@@ -25,7 +25,7 @@ export default function Hero() {
         className="absolute inset-0 md:hidden"
         style={{
           background:
-            "linear-gradient(180deg, #0F2A4A 0%, #0F2A4A 40%, rgba(15,42,74,0.85) 60%, rgba(15,42,74,0.35) 100%)",
+            "linear-gradient(180deg, #2F4A3C 0%, #2F4A3C 40%, rgba(47,74,60,0.85) 60%, rgba(47,74,60,0.35) 100%)",
         }}
       />
 
@@ -34,7 +34,7 @@ export default function Hero() {
         className="absolute inset-0 hidden md:block"
         style={{
           background:
-            "linear-gradient(90deg, rgba(15,42,74,0.05) 0%, rgba(15,42,74,0.7) 35%, rgba(15,42,74,0.98) 55%, #0F2A4A 70%, #0F2A4A 100%)",
+            "linear-gradient(90deg, rgba(47,74,60,0.05) 0%, rgba(47,74,60,0.7) 35%, rgba(47,74,60,0.98) 55%, #2F4A3C 70%, #2F4A3C 100%)",
         }}
       />
 
@@ -92,22 +92,31 @@ export default function Hero() {
             }}
           >
             <a
-              href="/contact"
+              href="tel:6479244532"
               className="btn-primary text-white font-semibold px-5 py-2.5 md:px-8 md:py-4 rounded-full text-sm md:text-base inline-flex items-center gap-2"
             >
-              <svg className="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 21s-6.716-4.35-9.428-8.06C.24 9.51 1.1 5.6 4.318 4.05c2.1-1.01 4.53-.38 5.868 1.42L12 7.64l1.814-2.17c1.338-1.8 3.768-2.43 5.868-1.42 3.218 1.55 4.078 5.46 1.746 8.89C18.716 16.65 12 21 12 21z" />
+              <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              Request a Free Consultation
+              Call (647) 924-4532
             </a>
             <a
-              href="/services"
+              href="/contact"
               className="btn-outline text-white font-semibold px-5 py-2.5 md:px-8 md:py-4 rounded-full text-sm md:text-base inline-flex items-center gap-2"
             >
               <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
               </svg>
-              Explore Services
+              Book Free Consultation
+            </a>
+            <a
+              href="/careers"
+              className="btn-outline text-white font-semibold px-5 py-2.5 md:px-8 md:py-4 rounded-full text-sm md:text-base inline-flex items-center gap-2"
+            >
+              <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m-4 6h16v6a2 2 0 01-2 2H6a2 2 0 01-2-2v-6z" />
+              </svg>
+              Careers
             </a>
           </div>
 

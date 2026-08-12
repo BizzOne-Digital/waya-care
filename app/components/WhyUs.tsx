@@ -35,7 +35,7 @@ export default function WhyUs() {
     {
       number: "06",
       title: "Local Milton Roots",
-      desc: "Born in the Halton Region, we're committed to serving our neighbors with the same care we'd want for our own families.",
+      desc: "Born in the Halton Region, we're committed to serving our neighbours with the same care we'd want for our own families.",
       icon: "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z",
     },
   ];

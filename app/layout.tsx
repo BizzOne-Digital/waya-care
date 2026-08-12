@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Waya Care — Compassionate Home Care in Milton, Ontario",
@@ -14,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body>{children}</body>
+      <body>
+        {children}
+        <WhatsAppButton />
+      </body>
     </html>
   );
 }

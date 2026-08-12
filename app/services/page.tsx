@@ -28,8 +28,8 @@ export default function ServicesPage() {
             <p className="text-slate text-sm">Hourly, daily, overnight, or 24-hour care — scaled up or down as needs change.</p>
           </div>
           <div>
-            <p className="font-display text-3xl text-teal mb-1">Consistent</p>
-            <p className="text-slate text-sm">Matched caregivers who stay with your family, not a rotating roster of strangers.</p>
+            <p className="font-display text-3xl text-teal mb-1">Trustworthy</p>
+            <p className="text-slate text-sm">Trustworthy caregivers matched to your family, not a rotating roster of strangers.</p>
           </div>
           <div>
             <p className="font-display text-3xl text-teal mb-1">Transparent</p>

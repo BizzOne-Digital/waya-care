@@ -33,7 +33,7 @@ export default function About() {
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-2xl overflow-hidden aspect-[3/4] transition-transform duration-500 hover:scale-[1.03]">
                 <img
-                  src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80"
+                  src="https://images.unsplash.com/photo-1762955911431-4c44c7c3f408?w=600&q=80"
                   alt="Caregiver with senior"
                   className="w-full h-full object-cover"
                 />
