@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import PageHero from "../components/PageHero";
 import Footer from "../components/Footer";
 import { Reveal, StaggerGroup, StaggerItem } from "../components/Reveal";
+import ApplyForm from "../components/ApplyForm";
 
 export const metadata: Metadata = {
   title: "Careers — Join Waya Care | Milton, Ontario",
@@ -120,7 +121,7 @@ export default function CareersPage() {
                   <p className="text-slate text-sm">{r.type} · {r.location}</p>
                 </div>
                 <a
-                  href="/contact"
+                  href="#apply"
                   className="btn-primary text-white font-semibold px-6 py-3 rounded-full text-sm inline-block text-center hover:scale-105 transition-transform"
                 >
                   Apply Now
@@ -131,23 +132,22 @@ export default function CareersPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <Reveal className="py-16 bg-navy">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="font-display text-3xl text-white mb-4">
-            Ready to Join <span className="italic text-teal-light">Our Team?</span>
-          </h2>
-          <p className="text-white/80 text-lg mb-8">
-            Send us your resume and a bit about yourself — we'll be in touch within a few business days.
-          </p>
-          <a
-            href="mailto:info@wayacare.com?subject=Career%20Application"
-            className="btn-primary text-white font-semibold px-8 py-4 rounded-full text-base inline-block"
-          >
-            Send Your Resume
-          </a>
+      {/* Apply */}
+      <section className="py-20 bg-navy">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          <Reveal className="text-center mb-10">
+            <h2 className="font-display text-3xl text-white mb-4">
+              Ready to Join <span className="italic text-teal-light">Our Team?</span>
+            </h2>
+            <p className="text-white/80 text-lg">
+              Send us your resume and a bit about yourself — we'll be in touch within a few business days.
+            </p>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <ApplyForm />
+          </Reveal>
         </div>
-      </Reveal>
+      </section>
 
       <Footer />
     </main>
