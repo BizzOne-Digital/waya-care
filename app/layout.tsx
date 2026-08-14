@@ -3,9 +3,9 @@ import "./globals.css";
 import WhatsAppButton from "./components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Waya Care — Compassionate Home Care in Milton, Ontario",
-  description: "Personalized home care services for seniors and families in Milton, Oakville, Burlington, and the Halton Region. Personal care, companionship, dementia support, and more.",
-  keywords: "home care Milton Ontario, senior care Halton Region, dementia care, respite care, personal care",
+  title: "Waya Care — Compassionate Home Care in the Greater Toronto Area",
+  description: "Personalized home care services for seniors and families across the Greater Toronto Area. Personal care, companionship, dementia support, and more.",
+  keywords: "home care GTA, senior care Greater Toronto Area, dementia care, respite care, personal care",
 };
 
 export default function RootLayout({

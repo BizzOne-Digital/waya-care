@@ -5,9 +5,9 @@ import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions — Waya Care | Home Care Milton Ontario",
+  title: "Frequently Asked Questions — Waya Care | Home Care in the GTA",
   description:
-    "Answers to common questions about Waya Care's home care services, pricing, caregiver vetting, scheduling, and coverage across the Halton Region.",
+    "Answers to common questions about Waya Care's home care services, pricing, caregiver vetting, scheduling, and coverage across the Greater Toronto Area.",
 };
 
 export default function FAQPage() {

@@ -5,9 +5,9 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "About Us — Waya Care | Home Care in Milton, Ontario",
+  title: "About Us — Waya Care | Home Care in the Greater Toronto Area",
   description:
-    "Learn about Waya Care Corporation — our story, our mission, and the caregivers who deliver compassionate home care across Milton, Oakville, Burlington, and the Halton Region.",
+    "Learn about Waya Care Corporation — our story, our mission, and the caregivers who deliver compassionate home care across the Greater Toronto Area.",
 };
 
 export default function AboutPage() {
@@ -41,8 +41,8 @@ export default function AboutPage() {
             </p>
             <p className="text-slate leading-relaxed">
               Today, we proudly serve seniors, adults with disabilities, and individuals recovering
-              from illness or surgery across Milton, Oakville, Burlington, and the wider Halton
-              Region — with the same commitment we started with.
+              from illness or surgery across the Greater Toronto Area — with the same commitment
+              we started with.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -56,7 +56,7 @@ export default function AboutPage() {
             </div>
             <div className="bg-navy rounded-2xl p-6">
               <p className="font-display text-3xl text-white mb-1">Local</p>
-              <p className="text-white/70 text-sm">Rooted in Milton, serving the Halton Region</p>
+              <p className="text-white/70 text-sm">Proudly serving the Greater Toronto Area</p>
             </div>
             <div className="bg-navy rounded-2xl p-6">
               <p className="font-display text-3xl text-white mb-1">Licensed</p>

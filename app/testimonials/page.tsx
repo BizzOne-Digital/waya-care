@@ -5,9 +5,9 @@ import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Our Promise — Waya Care | Home Care in Milton, Ontario",
+  title: "Our Promise — Waya Care | Home Care in the Greater Toronto Area",
   description:
-    "Waya Care is a new, local home care company. Here's exactly what we commit to for every family we serve across Milton, Oakville, and Burlington.",
+    "Waya Care is a new, local home care company. Here's exactly what we commit to for every family we serve across the Greater Toronto Area.",
 };
 
 export default function TestimonialsPage() {
@@ -18,7 +18,7 @@ export default function TestimonialsPage() {
         eyebrow="Our Promise"
         title="What We Commit to"
         highlight="Every Family"
-        description="We're a new company in the Halton Region, so instead of pointing to reviews, we're telling you exactly what to expect."
+        description="We're a new company serving the Greater Toronto Area, so instead of pointing to reviews, we're telling you exactly what to expect."
       />
 
       <Testimonials />

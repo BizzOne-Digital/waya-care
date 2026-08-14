@@ -5,9 +5,9 @@ import WhyUs from "../components/WhyUs";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Why Choose Waya Care | Home Care in Milton, Ontario",
+  title: "Why Choose Waya Care | Home Care in the Greater Toronto Area",
   description:
-    "See what sets Waya Care apart: personalized care plans, consistent caregiver relationships, transparent communication, and deep local roots in the Halton Region.",
+    "See what sets Waya Care apart: personalized care plans, consistent caregiver relationships, transparent communication, and deep local roots across the Greater Toronto Area.",
 };
 
 export default function WhyUsPage() {
@@ -18,7 +18,7 @@ export default function WhyUsPage() {
         eyebrow="Why Waya"
         title="Why Families Choose"
         highlight="Waya Care"
-        description="There are a lot of home care options in the Halton Region. Here's what actually makes families stay with us."
+        description="There are a lot of home care options in the Greater Toronto Area. Here's what actually makes families stay with us."
       />
 
       <WhyUs />

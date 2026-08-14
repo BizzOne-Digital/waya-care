@@ -6,7 +6,7 @@ import { Reveal, StaggerGroup, StaggerItem } from "./Reveal";
 const faqs = [
   {
     q: "What areas does Waya Care serve?",
-    a: "We currently serve Milton, Oakville, Burlington, Halton Hills, and surrounding communities in the Halton Region of Ontario. Contact us to confirm availability in your area.",
+    a: "We currently serve families across the Greater Toronto Area. Contact us to confirm availability in your neighbourhood.",
   },
   {
     q: "How do I get started with home care?",

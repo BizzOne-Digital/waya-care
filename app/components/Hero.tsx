@@ -52,7 +52,7 @@ export default function Hero() {
           >
             <div className="h-px w-8 md:w-10 bg-teal-light" />
             <span className="text-teal-light text-xs md:text-sm font-semibold tracking-widest uppercase">
-              Milton, Ontario · Halton Region
+              Serving the Greater Toronto Area
             </span>
           </div>
 

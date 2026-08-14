@@ -30,7 +30,7 @@ const services = [
     title: "Respite & Family Caregiver Support",
     short: "You don't have to do it alone. Take a well-earned break.",
     details: ["A few hours to full days", "Evening & weekend coverage", "Overnight respite", "Flexible scheduling", "Emotional support for families", "Consistent caregiver matching"],
-    image: "https://images.unsplash.com/photo-1658314755707-1fbdf7c40145?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1741882966688-18de15d28921?w=800&q=80",
   },
   {
     icon: "M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z",

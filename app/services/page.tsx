@@ -5,7 +5,7 @@ import Services from "../components/Services";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Home Care Services — Waya Care | Milton & Halton Region",
+  title: "Home Care Services — Waya Care | Greater Toronto Area",
   description:
     "Explore Waya Care's full range of home care services: personal care, companionship, dementia support, respite care, overnight care, hospital-to-home support, and transportation.",
 };

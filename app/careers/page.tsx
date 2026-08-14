@@ -6,9 +6,9 @@ import { Reveal, StaggerGroup, StaggerItem } from "../components/Reveal";
 import ApplyForm from "../components/ApplyForm";
 
 export const metadata: Metadata = {
-  title: "Careers — Join Waya Care | Milton, Ontario",
+  title: "Careers — Join Waya Care | Greater Toronto Area",
   description:
-    "Join the Waya Care team. We're hiring compassionate caregivers across Milton, Oakville, Burlington, and the Halton Region.",
+    "Join the Waya Care team. We're hiring compassionate caregivers across the Greater Toronto Area.",
 };
 
 const values = [
@@ -30,7 +30,7 @@ const values = [
   {
     icon: "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z",
     title: "Local & Community-Focused",
-    desc: "Work close to home, caring for families right here in the Halton Region.",
+    desc: "Work close to home, caring for families right here in the Greater Toronto Area.",
   },
 ];
 
@@ -38,17 +38,17 @@ const roles = [
   {
     title: "Personal Support Worker (PSW)",
     type: "Full-Time / Part-Time",
-    location: "Milton, Oakville, Burlington & Halton Hills",
+    location: "Greater Toronto Area",
   },
   {
     title: "Companion Caregiver",
     type: "Part-Time / Per-Diem",
-    location: "Milton & Surrounding Areas",
+    location: "Greater Toronto Area",
   },
   {
     title: "Overnight Care Provider",
     type: "Evenings & Overnights",
-    location: "Halton Region",
+    location: "Greater Toronto Area",
   },
 ];
 
@@ -60,7 +60,7 @@ export default function CareersPage() {
         eyebrow="Careers"
         title="Build a Career"
         highlight="Rooted in Care"
-        description="Waya Care is growing, and we're looking for compassionate people to join our team of caregivers across the Halton Region."
+        description="Waya Care is growing, and we're looking for compassionate people to join our team of caregivers across the Greater Toronto Area."
       />
 
       {/* Why work here */}

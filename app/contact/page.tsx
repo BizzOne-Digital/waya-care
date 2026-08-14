@@ -5,9 +5,9 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Contact Waya Care | Home Care in Milton, Ontario",
+  title: "Contact Waya Care | Home Care in the Greater Toronto Area",
   description:
-    "Get in touch with Waya Care for a free home care consultation. Serving Milton, Oakville, Burlington, and the Halton Region.",
+    "Get in touch with Waya Care for a free home care consultation. Serving the Greater Toronto Area.",
 };
 
 export default function ContactPage() {
@@ -35,7 +35,7 @@ export default function ContactPage() {
           </div>
           <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
             <p className="font-semibold text-navy mb-1">Service Area</p>
-            <p className="text-slate text-sm">Milton, Ontario — Halton Region</p>
+            <p className="text-slate text-sm">Serving the Greater Toronto Area</p>
           </div>
         </div>
       </section>
