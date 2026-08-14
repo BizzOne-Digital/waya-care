@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import LogoMark from "./Logo";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -26,21 +25,14 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-white shadow-lg py-3"
-          : "bg-transparent py-5"
+      className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${
+        scrolled ? "shadow-lg py-3" : "shadow-sm py-4"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <LogoMark />
-          <div>
-            <span className={`font-display font-bold text-xl tracking-tight ${scrolled ? "text-navy" : "text-white"}`}>
-              Waya<span className="text-teal-light">Care</span>
-            </span>
-          </div>
+        <Link href="/" className="flex items-center">
+          <img src="/logo.png" alt="Waya Care" className="h-12 w-auto" />
         </Link>
 
         {/* Desktop Nav */}
@@ -49,9 +41,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className={`nav-link text-sm font-medium transition-colors ${
-                scrolled ? "text-navy hover:text-teal" : "text-white/90 hover:text-white"
-              }`}
+              className="nav-link text-sm font-medium transition-colors text-navy hover:text-teal"
             >
               {link.label}
             </Link>
@@ -71,7 +61,7 @@ export default function Navbar() {
         {/* Hamburger */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className={`md:hidden p-2 rounded-lg ${scrolled ? "text-navy" : "text-white"}`}
+          className="md:hidden p-2 rounded-lg text-navy"
         >
           {menuOpen ? (
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

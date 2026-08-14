@@ -1,5 +1,4 @@
 import { Reveal, StaggerGroup, StaggerItem } from "./Reveal";
-import LogoMark from "./Logo";
 
 export default function Footer() {
   return (
@@ -8,9 +7,8 @@ export default function Footer() {
         <StaggerGroup className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12" stagger={0.08}>
           {/* Brand */}
           <StaggerItem className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <LogoMark />
-              <span className="font-display font-bold text-xl">Waya<span className="text-teal-light">Care</span></span>
+            <div className="mb-4 bg-white rounded-xl inline-block p-2">
+              <img src="/logo.png" alt="Waya Care" className="h-14 w-auto" />
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-4">
               Compassionate, personalized home care for seniors and families across the Halton Region.
