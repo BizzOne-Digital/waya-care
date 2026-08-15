@@ -23,26 +23,6 @@ export default function Navbar() {
     { href: "/contact", label: "Contact" },
   ];
 
-  const menuGroups = [
-    {
-      heading: "Company",
-      items: [
-        { href: "/about", label: "About Us" },
-        { href: "/why-us", label: "Why Waya" },
-        { href: "/testimonials", label: "Our Promise" },
-      ],
-    },
-    {
-      heading: "Get Started",
-      items: [
-        { href: "/services", label: "Services" },
-        { href: "/faq", label: "FAQ" },
-        { href: "/careers", label: "Careers" },
-        { href: "/contact", label: "Contact" },
-      ],
-    },
-  ];
-
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${
@@ -95,45 +75,37 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu — full-screen overlay */}
+      {/* Mobile Menu */}
       <AnimatePresence>
         {menuOpen && (
           <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.25, ease: "easeInOut" }}
-            className="md:hidden fixed inset-0 top-[72px] bg-white overflow-y-auto z-40"
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="md:hidden bg-white shadow-xl border-t border-gray-100 overflow-hidden"
           >
-            <div className="px-6 py-6">
-              <p className="text-xs font-semibold text-teal uppercase tracking-widest mb-4">Menu</p>
-
-              {menuGroups.map((group, gi) => (
-                <div key={group.heading} className="mb-6">
-                  <p className="text-xs font-semibold text-slate uppercase tracking-widest mb-2">{group.heading}</p>
-                  {group.items.map((link, i) => (
-                    <motion.div
-                      key={link.href}
-                      initial={{ opacity: 0, x: -10 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: (gi * group.items.length + i) * 0.04 }}
-                    >
-                      <Link
-                        href={link.href}
-                        onClick={() => setMenuOpen(false)}
-                        className="block py-3 text-navy font-medium text-lg border-b border-gray-50 hover:text-teal transition-colors"
-                      >
-                        {link.label}
-                      </Link>
-                    </motion.div>
-                  ))}
-                </div>
+            <div className="px-6 py-4">
+              {links.map((link, i) => (
+                <motion.div
+                  key={link.href}
+                  initial={{ opacity: 0, x: -10 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: i * 0.05 }}
+                >
+                  <Link
+                    href={link.href}
+                    onClick={() => setMenuOpen(false)}
+                    className="block py-3 text-navy font-medium border-b border-gray-50 hover:text-teal transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </motion.div>
               ))}
-
               <Link
                 href="/contact"
                 onClick={() => setMenuOpen(false)}
-                className="btn-primary block text-center text-white font-semibold px-5 py-4 rounded-full mt-4"
+                className="btn-primary block text-center text-white font-semibold px-5 py-3 rounded-full mt-4"
               >
                 Free Consultation
               </Link>
