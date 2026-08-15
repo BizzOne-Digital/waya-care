@@ -13,11 +13,11 @@ export default function Hero() {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover md:hidden"
-        style={{ backgroundImage: "url('/mobile-hero.png')", backgroundPosition: "top center" }}
+        style={{ backgroundImage: "url('/mobile-hero1.png')", backgroundPosition: "top center" }}
       />
       <div
         className="absolute inset-0 bg-cover bg-center hidden md:block"
-        style={{ backgroundImage: "url('/hero.png')" }}
+        style={{ backgroundImage: "url('/hero1.png')" }}
       />
 
       {/* Overlay: dark at top for text contrast, fading to show the photo below (mobile) */}
