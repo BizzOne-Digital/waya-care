@@ -59,7 +59,7 @@ export default function AboutPage() {
               <p className="text-white/70 text-sm">Proudly serving the Greater Toronto Area</p>
             </div>
             <div className="bg-navy rounded-2xl p-6">
-              <p className="font-display text-3xl text-white mb-1">Licensed</p>
+              <p className="font-display text-3xl text-white mb-1">Reliable</p>
               <p className="text-white/70 text-sm">Insured, registered, and background-checked</p>
             </div>
           </div>
