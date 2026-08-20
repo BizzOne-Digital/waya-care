@@ -95,7 +95,7 @@ export default function Footer() {
             </ul>
 
             <div className="mt-6">
-              <a href="/contact" className="btn-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full inline-block hover:scale-105 transition-transform">
+              <a href="https://calendly.com/wayacare-info/30min" target="_blank" rel="noopener noreferrer" className="btn-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full inline-block hover:scale-105 transition-transform">
                 Free Consultation
               </a>
             </div>

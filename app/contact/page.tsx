@@ -23,6 +23,26 @@ export default function ContactPage() {
 
       <Contact />
 
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h2 className="font-display text-3xl text-navy mb-3">
+            Prefer to <span className="italic text-teal">Book a Time Directly?</span>
+          </h2>
+          <p className="text-slate text-lg mb-8">
+            Pick a time that works for you and we'll call to talk through your needs.
+          </p>
+          <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+            <iframe
+              src="https://calendly.com/wayacare-info/30min"
+              title="Book a Free Consultation"
+              width="100%"
+              height="700"
+              frameBorder="0"
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 bg-cream">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 grid sm:grid-cols-3 gap-6 text-center">
           <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">

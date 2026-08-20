@@ -51,7 +51,9 @@ export default function ServicesPage() {
             pressure to commit.
           </p>
           <a
-            href="/contact"
+            href="https://calendly.com/wayacare-info/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary text-white font-semibold px-8 py-4 rounded-full text-base inline-block"
           >
             Book a Free Consultation

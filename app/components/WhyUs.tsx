@@ -85,7 +85,7 @@ export default function WhyUs() {
         <Reveal delay={0.1} className="mt-14 p-8 rounded-2xl bg-gradient-to-r from-teal to-teal-light text-center">
           <h3 className="font-display text-white text-2xl mb-3">Ready to get started?</h3>
           <p className="text-white/85 mb-6">Let's talk about your family's care needs — no obligation, no pressure.</p>
-          <a href="/contact" className="bg-white text-teal font-bold px-8 py-3.5 rounded-full inline-block hover:shadow-xl transition-all hover:-translate-y-1">
+          <a href="https://calendly.com/wayacare-info/30min" target="_blank" rel="noopener noreferrer" className="bg-white text-teal font-bold px-8 py-3.5 rounded-full inline-block hover:shadow-xl transition-all hover:-translate-y-1">
             Book a Free Care Consultation
           </a>
         </Reveal>

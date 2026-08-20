@@ -50,12 +50,14 @@ export default function Navbar() {
 
         {/* CTA */}
         <div className="hidden md:block">
-          <Link
-            href="/contact"
+          <a
+            href="https://calendly.com/wayacare-info/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full inline-block hover:scale-105 transition-transform"
           >
             Free Consultation
-          </Link>
+          </a>
         </div>
 
         {/* Hamburger */}
@@ -102,13 +104,15 @@ export default function Navbar() {
                   </Link>
                 </motion.div>
               ))}
-              <Link
-                href="/contact"
+              <a
+                href="https://calendly.com/wayacare-info/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}
                 className="btn-primary block text-center text-white font-semibold px-5 py-3 rounded-full mt-4"
               >
                 Free Consultation
-              </Link>
+              </a>
             </div>
           </motion.div>
         )}
