@@ -77,6 +77,9 @@ export default function AboutPage() {
             To help every person we serve live safely, comfortably, and with dignity in the place
             they call home — supported by a caregiver they know and trust.
           </p>
+          <p className="text-slate/70 text-sm mt-6">
+            Waya Care is a Canadian registered corporation.
+          </p>
         </div>
       </section>
 

@@ -46,18 +46,6 @@ export default function About() {
                 />
               </div>
             </div>
-            {/* Floating badge */}
-            <Reveal delay={0.3} y={20} className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-white rounded-2xl shadow-xl px-6 py-4 flex items-center gap-3 border border-teal-pale">
-              <div className="w-12 h-12 bg-teal-pale rounded-xl flex items-center justify-center">
-                <svg className="w-6 h-6 text-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div>
-                <p className="font-semibold text-navy text-sm">Licensed & Insured</p>
-                <p className="text-slate text-xs">Ontario Registered Corp.</p>
-              </div>
-            </Reveal>
           </Reveal>
 
           {/* Right: Content */}
