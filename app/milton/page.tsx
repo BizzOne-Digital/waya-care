@@ -114,8 +114,8 @@ export default function MiltonPage() {
               (647) 924-4532
             </a>{" "}
             or email{" "}
-            <a href="mailto:info@wayacare.com" className="text-teal-light font-semibold hover:underline">
-              info@wayacare.com
+            <a href="mailto:care@wayacare.com" className="text-teal-light font-semibold hover:underline">
+              care@wayacare.com
             </a>{" "}
             to speak with a care coordinator today.
           </p>

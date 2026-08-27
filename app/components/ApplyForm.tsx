@@ -40,8 +40,8 @@ export default function ApplyForm() {
           <h3 className="font-display text-2xl text-navy mb-1">Apply Now</h3>
           <p className="text-slate text-sm mb-6">
             Fill out the form below, or email your resume directly to{" "}
-            <a href="mailto:info@wayacare.com?subject=Career%20Application" className="text-teal font-medium hover:underline">
-              info@wayacare.com
+            <a href="mailto:care@wayacare.com?subject=Career%20Application" className="text-teal font-medium hover:underline">
+              care@wayacare.com
             </a>.
           </p>
 

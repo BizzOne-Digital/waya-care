@@ -51,7 +51,7 @@ export default function ContactPage() {
           </div>
           <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
             <p className="font-semibold text-navy mb-1">Email Us</p>
-            <p className="text-slate text-sm">info@wayacare.com</p>
+            <p className="text-slate text-sm">care@wayacare.com</p>
           </div>
           <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
             <p className="font-semibold text-navy mb-1">Service Area</p>
