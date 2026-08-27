@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import WhatsAppButton from "./components/WhatsAppButton";
+import MobileCallBar from "./components/MobileCallBar";
 
 export const metadata: Metadata = {
   title: "Waya Care — Compassionate Home Care in the Greater Toronto Area",
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body>
+        <MobileCallBar />
         {children}
         <WhatsAppButton />
       </body>

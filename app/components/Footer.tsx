@@ -55,6 +55,13 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+
+            <h4 className="font-semibold text-sm uppercase tracking-wider mb-4 mt-8 text-teal-light">Service Areas</h4>
+            <ul className="space-y-2">
+              <li>
+                <a href="/milton" className="text-white/60 text-sm hover:text-teal-light transition-colors">Milton, ON</a>
+              </li>
+            </ul>
           </StaggerItem>
 
           {/* Company */}

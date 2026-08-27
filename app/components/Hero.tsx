@@ -39,7 +39,7 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 pt-28 md:pt-24 pb-16 w-full flex justify-end">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 pt-36 md:pt-24 pb-16 w-full flex justify-end">
         <div className="max-w-xl w-full">
           {/* Eyebrow */}
           <div
@@ -52,7 +52,7 @@ export default function Hero() {
           >
             <div className="h-px w-8 md:w-10 bg-teal-light" />
             <span className="text-teal-light text-xs md:text-sm font-semibold tracking-widest uppercase">
-              Serving the Greater Toronto Area
+              Compassionate Home Care for Seniors in Milton, Oakville, and the Surrounding Areas
             </span>
           </div>
 

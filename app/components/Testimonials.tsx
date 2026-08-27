@@ -42,7 +42,7 @@ export default function Testimonials() {
             What You Can <span className="italic text-teal">Expect From Us</span>
           </h2>
           <p className="text-slate text-lg max-w-xl mx-auto">
-            Waya Care is a new, local company — so instead of asking you to trust reviews, here's exactly what we commit to for every family we serve.
+            As a locally-owned agency, we don't route you through a corporate call center. You get direct, 24/7 personal support — here's exactly what we commit to for every family we serve.
           </p>
         </Reveal>
 

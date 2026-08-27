@@ -13,7 +13,7 @@ export default function PageHero({
   description: string;
 }) {
   return (
-    <section className="relative bg-navy pt-36 pb-20 overflow-hidden">
+    <section className="relative bg-navy pt-40 md:pt-36 pb-20 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy to-teal/40" />
       <Reveal className="relative max-w-5xl mx-auto px-4 sm:px-6 text-center">
         <div className="flex items-center justify-center gap-2 text-sm text-white/70 mb-5">
