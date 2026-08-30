@@ -40,8 +40,8 @@ export default function About() {
               </div>
               <div className="rounded-2xl overflow-hidden aspect-[3/4] mt-8 transition-transform duration-500 hover:scale-[1.03]">
                 <img
-                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&q=80"
-                  alt="Home care"
+                  src="https://images.unsplash.com/photo-1756312178561-ac1c3eda3088?w=600&q=80"
+                  alt="Adult living independently at home with support"
                   className="w-full h-full object-cover"
                 />
               </div>

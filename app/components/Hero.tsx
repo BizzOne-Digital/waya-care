@@ -52,7 +52,7 @@ export default function Hero() {
           >
             <div className="h-px w-8 md:w-10 bg-teal-light" />
             <span className="text-teal-light text-xs md:text-sm font-semibold tracking-widest uppercase">
-              Compassionate Home Care for Seniors in Milton, Oakville, and the Surrounding Areas
+              Serving Milton, Oakville and Surrounding Area
             </span>
           </div>
 
@@ -115,7 +115,7 @@ export default function Hero() {
 
           {/* Trust stats */}
           <div
-            className="flex flex-wrap gap-3 md:gap-6"
+            className="hidden md:flex flex-wrap gap-3 md:gap-6"
             style={{
               opacity: loaded ? 1 : 0,
               transition: "all 0.7s ease 0.65s",

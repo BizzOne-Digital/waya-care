@@ -44,7 +44,7 @@ const services = [
     title: "Hospital-to-Home Support",
     short: "A smoother, safer transition after a hospital stay.",
     details: ["Personal care on return", "Meal preparation", "Mobility assistance", "Appointment follow-ups", "Medication reminders", "Family coordination"],
-    image: "https://images.unsplash.com/photo-1672640770474-e1d8a28fd0d2?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1732194438268-385836aa91c0?w=800&q=80",
   },
   {
     icon: "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z",
