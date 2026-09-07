@@ -3,6 +3,14 @@ import Navbar from "../components/Navbar";
 import PageHero from "../components/PageHero";
 import WhyUs from "../components/WhyUs";
 import Footer from "../components/Footer";
+import { Reveal, StaggerGroup, StaggerItem } from "../components/Reveal";
+
+const referralPoints = [
+  "Rewards families for sharing their positive experiences",
+  "Helps new families access quality care",
+  "Strengthens our community connections",
+  "Encourages trust-based growth",
+];
 
 export const metadata: Metadata = {
   title: "Why Choose Waya Care | Home Care in the Greater Toronto Area",
@@ -48,6 +56,37 @@ export default function WhyUsPage() {
               <li className="flex gap-2"><span className="text-teal font-bold">4.</span> Ongoing check-ins and adjustments as needs evolve</li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      {/* Referral Discount */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <Reveal className="text-center mb-10">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="h-px w-8 bg-teal-light" />
+              <span className="text-teal text-sm font-semibold tracking-widest uppercase">Family & Friends Referral Discount</span>
+              <div className="h-px w-8 bg-teal-light" />
+            </div>
+            <h2 className="font-display text-3xl sm:text-4xl text-navy mb-4">
+              Referral Discount <span className="italic text-teal">Program</span>
+            </h2>
+            <p className="text-slate text-lg">
+              We value the trust families place in Waya Care. When a family refers a friend or
+              loved one to our services, they receive a special referral discount as a thank-you
+              for helping us support more individuals in the community.
+            </p>
+          </Reveal>
+          <StaggerGroup className="grid sm:grid-cols-2 gap-4">
+            {referralPoints.map((p) => (
+              <StaggerItem key={p} className="flex items-start gap-3 bg-teal-pale rounded-xl p-5">
+                <svg className="w-5 h-5 text-teal flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-navy text-sm font-medium">{p}</span>
+              </StaggerItem>
+            ))}
+          </StaggerGroup>
         </div>
       </section>
 

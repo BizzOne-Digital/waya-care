@@ -63,7 +63,7 @@ export default function About() {
                 When a loved one reaches a stage where they need extra support at home, it can be a challenging and emotional time for the entire family. You are faced with difficult choices, stressful transitions, and the vulnerable task of welcoming a caregiver into your home.
               </p>
               <p className="text-slate leading-relaxed mb-4">
-                I founded Waya Care right here in Milton with a simple but deeply personal mission: to deliver the exact standard of care that I would expect for my own family members.
+                We founded Waya Care right here in Milton with a simple but deeply personal mission: to deliver the exact standard of care that we would expect for our own family members.
               </p>
               <p className="text-slate leading-relaxed mb-4">
                 As a small, locally-owned and independent startup, we purposefully reject the "one-size-fits-all" corporate agency model. We don't route your calls through a faceless call centre, and we don't send a constantly rotating roster of strangers to your door. Instead, we promise absolute consistency. We match your loved one with a dedicated, familiar caregiver who understands their unique routines, daily preferences, and what makes them feel safe.
