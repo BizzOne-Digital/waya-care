@@ -8,7 +8,7 @@ import { Reveal, StaggerGroup, StaggerItem } from "../components/Reveal";
 export const metadata: Metadata = {
   title: "Our Promise — Waya Care | Home Care in the Greater Toronto Area",
   description:
-    "As a locally-owned agency, we don't route you through a corporate call center. Here's exactly what we commit to for every family we serve.",
+    "As a locally-owned home care service, we don't route you through a corporate call center. Here's exactly what we commit to for every family we serve.",
 };
 
 const experiences = [

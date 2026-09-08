@@ -36,6 +36,10 @@ const faqs = [
     q: "Is Waya Care covered by insurance or government funding?",
     a: "Some clients may be eligible for government-funded care through the Home and Community Care Support Services (HCCSS). We recommend contacting your local HCCSS office to check eligibility. We also work with some private insurance plans. Contact us to discuss your specific situation.",
   },
+  {
+    q: "Do you offer referral discounts?",
+    a: "Yes, we do offer referral discounts. When you refer a friend or family member to Waya Care, you receive a special discount as a thank-you for helping us support more families in the community.",
+  },
 ];
 
 export default function FAQ() {

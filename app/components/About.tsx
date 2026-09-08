@@ -66,7 +66,7 @@ export default function About() {
                 We founded Waya Care right here in Milton with a simple but deeply personal mission: to deliver the exact standard of care that we would expect for our own family members.
               </p>
               <p className="text-slate leading-relaxed mb-4">
-                As a small, locally-owned and independent startup, we purposefully reject the "one-size-fits-all" corporate agency model. We don't route your calls through a faceless call centre, and we don't send a constantly rotating roster of strangers to your door. Instead, we promise absolute consistency. We match your loved one with a dedicated, familiar caregiver who understands their unique routines, daily preferences, and what makes them feel safe.
+                As a small, locally-owned and independent home care service, we purposefully reject the "one-size-fits-all" corporate model. We don't route your calls through a faceless call centre, and we don't send a constantly rotating roster of strangers to your door. Instead, we promise absolute consistency. We match your loved one with a dedicated, familiar caregiver who understands their unique routines, daily preferences, and what makes them feel safe.
               </p>
               <p className="text-slate leading-relaxed mb-8">
                 When you choose Waya Care, you aren't just hiring a service — you are gaining a trusted partner who is personally invested in your family's peace of mind.
