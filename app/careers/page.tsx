@@ -56,6 +56,14 @@ const values = [
 
 const whoWeSupport = ["Individuals We Support", "People in Our Care", "Those We Support"];
 
+const quickFacts = [
+  { label: "Compensation", detail: "Top-tier hourly rates + mileage reimbursement." },
+  { label: "Flexibility", detail: "Full-time, part-time, overnight, and weekend shifts available." },
+  { label: "Geographic Focus", detail: "Shift matching close to home in Milton, Burlington, Oakville, and Mississauga." },
+  { label: "Support", detail: "24/7 clinical support hotline for field staff." },
+  { label: "Growth", detail: "Paid ongoing training and specialized certifications (e.g., dementia care)." },
+];
+
 const roles = [
   {
     title: "Personal Support Worker (PSW)",
@@ -84,6 +92,25 @@ export default function CareersPage() {
         highlight="Rooted in Care"
         description="Waya Care is growing, and we're looking for compassionate people to join our team of caregivers across the Greater Toronto Area."
       />
+
+      {/* Quick Facts */}
+      <section className="py-16 bg-cream">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <Reveal className="text-center mb-10">
+            <h2 className="font-display text-2xl sm:text-3xl text-navy">
+              What You Can <span className="italic text-teal">Expect</span>
+            </h2>
+          </Reveal>
+          <StaggerGroup className="divide-y divide-gray-200 bg-white rounded-2xl border border-gray-100 overflow-hidden">
+            {quickFacts.map((f) => (
+              <StaggerItem key={f.label} className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-6 px-6 py-5">
+                <span className="text-teal text-sm font-semibold uppercase tracking-wide sm:w-48 flex-shrink-0">{f.label}</span>
+                <span className="text-slate text-sm sm:text-base">{f.detail}</span>
+              </StaggerItem>
+            ))}
+          </StaggerGroup>
+        </div>
+      </section>
 
       {/* Why work here */}
       <section className="py-20 bg-white">
