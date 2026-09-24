@@ -31,8 +31,11 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center">
-          <img src="/logo1.png" alt="Waya Care" className="h-16 md:h-20 w-auto drop-shadow-sm" />
+        <Link href="/" className="flex items-center gap-2">
+          <img src="/new.png" alt="Waya Care" className="h-11 md:h-14 w-auto drop-shadow-sm" />
+          <span className="font-display font-bold text-xl md:text-2xl tracking-tight text-navy">
+            Waya<span className="text-teal-light">Care</span>
+          </span>
         </Link>
 
         {/* Desktop Nav */}
